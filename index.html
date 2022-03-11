@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="title-bar">
+        <div class="title">
+          <h1><span class="first-letter">G</span>uess <span class="first-letter">T</span>he <span class="first-letter">N</span>umber</h1>
+          <p>(Between 1-20)</p>
+        </div>
+        
+        <button class="play-again">Play Again</button>
+      </div>
+      
+      <div class="secret-box">
+        <span class="secret">?</span>
+      </div>
+      <div class="border"></div>
+    </header>
+
+    <main>
+      <div class="left">
+        <input type="number" class="guess" />
+        <button class="check">Check</button>
+      </div>
+      <div class="right">
+        <p class="message-label"> <span class="message">Start guessing...</span> </p>
+        <p class="score-label">Score: <span class="score">20</span></p>
+        <p class="highscore-label">HighScore: <span class="highscore">0</span></p>
+        <button class="reset-highscore">Reset highscore</button>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
